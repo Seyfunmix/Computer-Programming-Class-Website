@@ -1,1 +1,105 @@
-<h1>Baby i like ur style</h1>
+<!DOCTYPE html>
+<head>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <link href="/normalize.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Rammetto+One|Pacifico" rel="stylesheet">
+  <style>
+    header {
+      text-align: center;
+      background: url('https://media3.giphy.com/media/GHycyakNPWSoo/giphy.gif');
+      background-size: cover;
+      color: white;
+    }
+    a {
+      color: white;
+    }
+    h1 {
+      font-size: 70px;
+      font-family: 'Rammetto One', cursive;
+      color: rgba(255,255,255,0.5)
+    }
+    h2 {
+      font-family: 'Rammetto One', cursive;
+    }
+    h3 {
+      max-width: 500px;
+      margin: 0 auto;
+      font-family: 'Nanum Pen Script', cursive;
+      font-size: 25px;
+    }
+    p {
+      font-family: 'Nanum Pen Script', cursive;
+    font-size: 25px;
+    }
+      
+    body {
+      text-align: center;
+      background: grey;
+    }
+    img {
+      margin: 40px 0px 0px 0px;
+      border: 7px solid white;
+      border-radius: 20px;
+    }
+    ul {
+      padding: 10px;
+      background: rgba(0,0,0,0.5);
+      font-family: 'Pacifico', cursive;
+    }
+    li {
+      display: inline;
+      padding: 0px 10px 0px 10px;
+    }
+    article {
+      max-width: 500px;
+      padding: 20px;
+      margin: 0 auto;
+    }
+    @media (max-width: 500px) {
+      h1 {
+        font-size: 36px;
+        padding: 5px;
+      }
+      li {
+        padding: 5px;
+        display: block;
+      }
+    }
+  </style>
+</head>
+<body>
+<h3>Sign up for a weekly quote from Jeff!</h3>
+<input type="email" placeholder="Your email" id="rv">
+  <input type="submit" onClick="alert(rv.value)">
+  <header>
+    <img src="https://i.ytimg.com/vi/d_JC2l-X6yk/hqdefault.jpg">
+    <h1>All About Jeff</h1>
+    <ul>
+      <li><a href="https://media2.giphy.com/media/MgcE5n2MDfwiI/giphy.gif"target="blank">What's Jeff's Name?</a></li>
+      <li><a href="https://www.thrillist.com/entertainment/nation/best-memes-of-all-time" target="blank">Best Memes</a></li>
+      <li><a href="https://www.pcmag.com/feature/350414/this-is-fine-2016-s-best-worst-memes"target="blank">Worst Memes</a></li>
+    </ul>
+  </header>
+  <article>
+    <h2>About</h2>
+    <p>“My Name Is Jeff” is a memorable quote uttered by the character Greg Jenko (played by Channing Tatum) in a falsetto voice during a scene in the 2014 action comedy film 22 Jump Street. An audio clip of the quote has been prominently featured in many videos on YouTube and Vine.
+</p>
+    <button>Meme</button>
+  </article>
+  <article>
+    <h2>Origin</h2>
+    <p>On June 4th, 2014, the film 22 Jump Street was released as a sequel to the 2012 film 21 Jump Street. In the film, police officers Morton Schmidt (played by Jonah Hill) and Greg Jenko go undercover as hispanic gang members, leading Jenko to introduce himself as “Jeff” (shown below).
+</p>
+    <button>Meme</button>
+  </article>
+  <article>
+    <h2>Spread</h2>
+    <p>On May 22nd, 2014, YouTuber i Smoker uploaded a clip of Jenko saying “My name is Jeff,” which gathered upwards of 1.7 million views and 520 comments in the first two years.[1] On November 19th, Viner ec me uploaded a clip from the 1999 hip hop music video “My Name Is” by Eminem with “My name is Jeff” dubbed over the trackd</p>
+    <button>Meme</button>
+  </article>
+  <script>
+    $("button").on("click", function() {
+      alert("You've Memed This!");
+    });
+  </script>
+</body>
